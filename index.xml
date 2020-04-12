@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>五锅锅的博客</title>
+    <link>https://hzx157.github.io/</link>
+    <description>Recent content on 五锅锅的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 12 Apr 2020 13:43:17 +0800</lastBuildDate>
+    
+	<atom:link href="https://hzx157.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Golang01</title>
+      <link>https://hzx157.github.io/post/Golang/golang01/</link>
+      <pubDate>Sun, 12 Apr 2020 14:39:16 +0800</pubDate>
+      
+      <guid>https://hzx157.github.io/post/Golang/golang01/</guid>
+      <description>无意之中看到了Golang，从此就爱上了它的简洁高效高并发，还有编译速度，部署简单，不需要依赖环境就可以直接部署，它是一个快速、静态类型的编译语言. 所以特意寻找一些Golang的学习网站资源 Golang官方网站 最直接的官方文档，但需要翻墙 附上：Golang英文教程指南 Golang</description>
+    </item>
+    
+    <item>
+      <title>归档</title>
+      <link>https://hzx157.github.io/archives/</link>
+      <pubDate>Sun, 12 Apr 2020 13:43:17 +0800</pubDate>
+      
+      <guid>https://hzx157.github.io/archives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>关于</title>
+      <link>https://hzx157.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hzx157.github.io/about/</guid>
+      <description>正在努力学习Golang的小菜鸡</description>
+    </item>
+    
+    <item>
+      <title>搜索</title>
+      <link>https://hzx157.github.io/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hzx157.github.io/search/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
