@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nodejs on 五锅锅的博客</title>
+    <link>https://hzx157.github.io/tags/nodejs/</link>
+    <description>Recent content in nodejs on 五锅锅的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 14 Sep 2017 21:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://hzx157.github.io/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>mac 的node.js 安装和卸载</title>
+      <link>https://hzx157.github.io/post/Web/node01/</link>
+      <pubDate>Thu, 14 Sep 2017 21:00:00 +0800</pubDate>
+      
+      <guid>https://hzx157.github.io/post/Web/node01/</guid>
+      <description>mac 安装node 首先安装 macOS 不可或缺的套件管理器：Homebrew /usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot; 把这段命令放到终端运行，然后等待成功 使用Homebrew安装nvm $ brew install nvm 安装成功之后&amp;</description>
+    </item>
+    
+  </channel>
+</rss>

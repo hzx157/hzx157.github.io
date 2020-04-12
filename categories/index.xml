@@ -6,9 +6,37 @@
     <description>Recent content in Categories on 五锅锅的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
+    <lastBuildDate>Sat, 14 Dec 2019 21:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://hzx157.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Web</title>
+      <link>https://hzx157.github.io/categories/Web/</link>
+      <pubDate>Sat, 14 Dec 2019 21:00:00 +0800</pubDate>
+      
+      <guid>https://hzx157.github.io/categories/Web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>https://hzx157.github.io/categories/Golang/</link>
+      <pubDate>Fri, 13 Dec 2019 21:00:00 +0800</pubDate>
+      
+      <guid>https://hzx157.github.io/categories/Golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iOS</title>
+      <link>https://hzx157.github.io/categories/iOS/</link>
+      <pubDate>Fri, 13 Dec 2019 21:00:00 +0800</pubDate>
+      
+      <guid>https://hzx157.github.io/categories/iOS/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

@@ -6,18 +6,18 @@
     <description>Recent content on 五锅锅的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 12 Apr 2020 13:43:17 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2020 16:18:31 +0800</lastBuildDate>
     
 	<atom:link href="https://hzx157.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Golang01</title>
-      <link>https://hzx157.github.io/post/Golang/golang01/</link>
-      <pubDate>Sun, 12 Apr 2020 14:39:16 +0800</pubDate>
+      <title>分类</title>
+      <link>https://hzx157.github.io/categories/</link>
+      <pubDate>Sun, 12 Apr 2020 16:18:31 +0800</pubDate>
       
-      <guid>https://hzx157.github.io/post/Golang/golang01/</guid>
-      <description>无意之中看到了Golang，从此就爱上了它的简洁高效高并发，还有编译速度，部署简单，不需要依赖环境就可以直接部署，它是一个快速、静态类型的编译语言. 所以特意寻找一些Golang的学习网站资源 Golang官方网站 最直接的官方文档，但需要翻墙 附上：Golang英文教程指南 Golang</description>
+      <guid>https://hzx157.github.io/categories/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -30,12 +30,84 @@
     </item>
     
     <item>
+      <title>安装gulp以及简单的使用</title>
+      <link>https://hzx157.github.io/post/Web/gulp01/</link>
+      <pubDate>Sat, 14 Dec 2019 21:00:00 +0800</pubDate>
+      
+      <guid>https://hzx157.github.io/post/Web/gulp01/</guid>
+      <description>好记性不如烂笔头，很多东西久了不用还是会易忘，特别是技术性的东西或是繁琐的操作 gulp 是前端的构建工具，配置不繁琐，而且学起来也容易。 安装gulp之前确保你安装nod</description>
+    </item>
+    
+    <item>
+      <title>Golang的学习网站资源</title>
+      <link>https://hzx157.github.io/post/Golang/golang01/</link>
+      <pubDate>Fri, 13 Dec 2019 21:00:00 +0800</pubDate>
+      
+      <guid>https://hzx157.github.io/post/Golang/golang01/</guid>
+      <description>无意之中看到了Golang，从此就爱上了它的简洁高效高并发，还有编译速度，部署简单，不需要依赖环境就可以直接部署，它是一个快速、静态类型的编译语言. 所以特意寻找</description>
+    </item>
+    
+    <item>
       <title>关于</title>
       <link>https://hzx157.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 13 Dec 2019 21:00:00 +0800</pubDate>
       
       <guid>https://hzx157.github.io/about/</guid>
       <description>正在努力学习Golang的小菜鸡</description>
+    </item>
+    
+    <item>
+      <title>关于ld: framework not found -xxxx 解决问题</title>
+      <link>https://hzx157.github.io/post/iOS/ios01/</link>
+      <pubDate>Fri, 13 Dec 2019 21:00:00 +0800</pubDate>
+      
+      <guid>https://hzx157.github.io/post/iOS/ios01/</guid>
+      <description>每次遇到这种问题时解决起来都会很繁琐，因为这次用了这种方法解决了下次不一定管用，所以索性把问题和解决方法记录下来 1. ld: framework not found AFNetworking 一般出现这个问题是在swift项目上</description>
+    </item>
+    
+    <item>
+      <title>mac 的node.js 安装和卸载</title>
+      <link>https://hzx157.github.io/post/Web/node01/</link>
+      <pubDate>Thu, 14 Sep 2017 21:00:00 +0800</pubDate>
+      
+      <guid>https://hzx157.github.io/post/Web/node01/</guid>
+      <description>mac 安装node 首先安装 macOS 不可或缺的套件管理器：Homebrew /usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot; 把这段命令放到终端运行，然后等待成功 使用Homebrew安装nvm $ brew install nvm 安装成功之后&amp;</description>
+    </item>
+    
+    <item>
+      <title>JavaScript兼容性收集</title>
+      <link>https://hzx157.github.io/post/Web/web03/</link>
+      <pubDate>Wed, 14 Sep 2016 21:00:00 +0800</pubDate>
+      
+      <guid>https://hzx157.github.io/post/Web/web03/</guid>
+      <description>导读： 1.dom层次 2.获取屏幕的可视区域 3.禁止冒泡兼容 4.获取当前触发操作对象 5.获取用户选中的内容 ###1、dom层次 IE 6.0: div -&amp;gt; body -&amp;gt; html -&amp;gt; document 其他浏览器: div -&amp;gt; body</description>
+    </item>
+    
+    <item>
+      <title>解剖JS原型对象，让世界没有混淆的对象😂</title>
+      <link>https://hzx157.github.io/post/Web/web04/</link>
+      <pubDate>Wed, 14 Sep 2016 21:00:00 +0800</pubDate>
+      
+      <guid>https://hzx157.github.io/post/Web/web04/</guid>
+      <description>前言:记录对对象属性的再次学习，对象属性很多概念性都比较容易让人混淆(至少我是经常的混淆&amp;hellip; 大笑ing ^-^ ) 1. hasOwnProperty和in属性 h</description>
+    </item>
+    
+    <item>
+      <title>iOS图片按原比例缩小算法(类似微信聊天图片)</title>
+      <link>https://hzx157.github.io/post/iOS/ios02/</link>
+      <pubDate>Sat, 13 Aug 2016 21:00:00 +0800</pubDate>
+      
+      <guid>https://hzx157.github.io/post/iOS/ios02/</guid>
+      <description>ps:因为这段时间做聊天功能，基本已经稳定，剩下就是优化小细节，今天发现聊天发送的图片和微信图片差别略大，网上搜了一下没有搜到相关代码，都是按尺寸相等缩小或剪裁</description>
+    </item>
+    
+    <item>
+      <title>AppStore上的兼容性居然不支持iPhone5以下机型?  </title>
+      <link>https://hzx157.github.io/post/iOS/ios03/</link>
+      <pubDate>Fri, 13 Mar 2015 21:00:00 +0800</pubDate>
+      
+      <guid>https://hzx157.github.io/post/iOS/ios03/</guid>
+      <description>项目成功上线 屁颠屁颠跑去和客户曰上线了 客户用4s试了一下 你麻痹 根本就不能下载 经仔细一看如下图 心中各种骂街&amp;hellip;.. 会不会是不支持iOS8原因? 然后各种</description>
     </item>
     
     <item>

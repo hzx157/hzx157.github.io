@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on 五锅锅的博客</title>
-    <link>https://hzx157.github.io/post/</link>
-    <description>Recent content in Posts on 五锅锅的博客</description>
+    <title>Web on 五锅锅的博客</title>
+    <link>https://hzx157.github.io/categories/Web/</link>
+    <description>Recent content in Web on 五锅锅的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 14 Dec 2019 21:00:00 +0800</lastBuildDate>
     
-	<atom:link href="https://hzx157.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hzx157.github.io/categories/Web/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,24 +18,6 @@
       
       <guid>https://hzx157.github.io/post/Web/gulp01/</guid>
       <description>好记性不如烂笔头，很多东西久了不用还是会易忘，特别是技术性的东西或是繁琐的操作 gulp 是前端的构建工具，配置不繁琐，而且学起来也容易。 安装gulp之前确保你安装nod</description>
-    </item>
-    
-    <item>
-      <title>Golang的学习网站资源</title>
-      <link>https://hzx157.github.io/post/Golang/golang01/</link>
-      <pubDate>Fri, 13 Dec 2019 21:00:00 +0800</pubDate>
-      
-      <guid>https://hzx157.github.io/post/Golang/golang01/</guid>
-      <description>无意之中看到了Golang，从此就爱上了它的简洁高效高并发，还有编译速度，部署简单，不需要依赖环境就可以直接部署，它是一个快速、静态类型的编译语言. 所以特意寻找</description>
-    </item>
-    
-    <item>
-      <title>关于ld: framework not found -xxxx 解决问题</title>
-      <link>https://hzx157.github.io/post/iOS/ios01/</link>
-      <pubDate>Fri, 13 Dec 2019 21:00:00 +0800</pubDate>
-      
-      <guid>https://hzx157.github.io/post/iOS/ios01/</guid>
-      <description>每次遇到这种问题时解决起来都会很繁琐，因为这次用了这种方法解决了下次不一定管用，所以索性把问题和解决方法记录下来 1. ld: framework not found AFNetworking 一般出现这个问题是在swift项目上</description>
     </item>
     
     <item>
@@ -63,24 +45,6 @@
       
       <guid>https://hzx157.github.io/post/Web/web04/</guid>
       <description>前言:记录对对象属性的再次学习，对象属性很多概念性都比较容易让人混淆(至少我是经常的混淆&amp;hellip; 大笑ing ^-^ ) 1. hasOwnProperty和in属性 h</description>
-    </item>
-    
-    <item>
-      <title>iOS图片按原比例缩小算法(类似微信聊天图片)</title>
-      <link>https://hzx157.github.io/post/iOS/ios02/</link>
-      <pubDate>Sat, 13 Aug 2016 21:00:00 +0800</pubDate>
-      
-      <guid>https://hzx157.github.io/post/iOS/ios02/</guid>
-      <description>ps:因为这段时间做聊天功能，基本已经稳定，剩下就是优化小细节，今天发现聊天发送的图片和微信图片差别略大，网上搜了一下没有搜到相关代码，都是按尺寸相等缩小或剪裁</description>
-    </item>
-    
-    <item>
-      <title>AppStore上的兼容性居然不支持iPhone5以下机型?  </title>
-      <link>https://hzx157.github.io/post/iOS/ios03/</link>
-      <pubDate>Fri, 13 Mar 2015 21:00:00 +0800</pubDate>
-      
-      <guid>https://hzx157.github.io/post/iOS/ios03/</guid>
-      <description>项目成功上线 屁颠屁颠跑去和客户曰上线了 客户用4s试了一下 你麻痹 根本就不能下载 经仔细一看如下图 心中各种骂街&amp;hellip;.. 会不会是不支持iOS8原因? 然后各种</description>
     </item>
     
   </channel>

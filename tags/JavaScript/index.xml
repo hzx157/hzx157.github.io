@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaScript on 五锅锅的博客</title>
+    <link>https://hzx157.github.io/tags/JavaScript/</link>
+    <description>Recent content in JavaScript on 五锅锅的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 14 Sep 2016 21:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://hzx157.github.io/tags/JavaScript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JavaScript兼容性收集</title>
+      <link>https://hzx157.github.io/post/Web/web03/</link>
+      <pubDate>Wed, 14 Sep 2016 21:00:00 +0800</pubDate>
+      
+      <guid>https://hzx157.github.io/post/Web/web03/</guid>
+      <description>导读： 1.dom层次 2.获取屏幕的可视区域 3.禁止冒泡兼容 4.获取当前触发操作对象 5.获取用户选中的内容 ###1、dom层次 IE 6.0: div -&amp;gt; body -&amp;gt; html -&amp;gt; document 其他浏览器: div -&amp;gt; body</description>
+    </item>
+    
+    <item>
+      <title>解剖JS原型对象，让世界没有混淆的对象😂</title>
+      <link>https://hzx157.github.io/post/Web/web04/</link>
+      <pubDate>Wed, 14 Sep 2016 21:00:00 +0800</pubDate>
+      
+      <guid>https://hzx157.github.io/post/Web/web04/</guid>
+      <description>前言:记录对对象属性的再次学习，对象属性很多概念性都比较容易让人混淆(至少我是经常的混淆&amp;hellip; 大笑ing ^-^ ) 1. hasOwnProperty和in属性 h</description>
+    </item>
+    
+  </channel>
+</rss>

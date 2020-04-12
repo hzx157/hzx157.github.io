@@ -6,20 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Golang的学习网站资源 | 五锅锅的博客</title>
-    <meta property="og:title" content="Golang的学习网站资源 - 五锅锅的博客">
+    <title>安装gulp以及简单的使用 | 五锅锅的博客</title>
+    <meta property="og:title" content="安装gulp以及简单的使用 - 五锅锅的博客">
     <meta property="og:type" content="article">
         
-    <meta property="article:published_time" content='2019-12-13T21:00:00&#43;08:00'>
+    <meta property="article:published_time" content='2019-12-14T21:00:00&#43;08:00'>
         
         
-    <meta property="article:modified_time" content='2019-12-13T21:00:00&#43;08:00'>
+    <meta property="article:modified_time" content='2019-12-14T21:00:00&#43;08:00'>
         
     <meta name="Keywords" content="golang,go语言,go语言笔记,飞雪无情,iOS,android,博客,项目管理,python,软件架构,公众号,小程序">
-    <meta name="description" content="Golang的学习网站资源">
+    <meta name="description" content="安装gulp以及简单的使用">
         
     <meta name="author" content="五锅锅">
-    <meta property="og:url" content="https://hzx157.github.io/post/Golang/golang01/">
+    <meta property="og:url" content="https://hzx157.github.io/post/Web/gulp01/">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href='/css/normalize.css'>
@@ -92,16 +92,16 @@
     
     <article class="post">
         <header>
-            <h1 class="post-title">Golang的学习网站资源</h1>
+            <h1 class="post-title">安装gulp以及简单的使用</h1>
         </header>
         <date class="post-meta meta-date">
-            2019年12月13日
+            2019年12月14日
         </date>
         
         <div class="post-meta">
             <span>|</span>
             
-            <span class="meta-category"><a href='https://hzx157.github.io/categories/Golang'>Golang</a></span>
+            <span class="meta-category"><a href='https://hzx157.github.io/categories/Web'>Web</a></span>
             
         </div>
         
@@ -113,105 +113,80 @@
         
         
         <div class="post-content">
-            <p>无意之中看到了Golang，从此就爱上了它的简洁高效高并发，还有编译速度，部署简单，不需要依赖环境就可以直接部署，它是一个快速、静态类型的编译语言.</p>
-<h2 id="所以特意寻找一些golang的学习网站资源">所以特意寻找一些Golang的学习网站资源</h2>
-<ul>
-<li>
-<ol>
-<li><a href="https://golang.google.cn">Golang官方网站</a></li>
-</ol>
-</li>
-</ul>
-<blockquote>
-<p>最直接的官方文档，但需要翻墙
-附上：<a href="https://tour.golang.org">Golang英文教程指南</a></p>
+            <blockquote>
+<p>好记性不如烂笔头，很多东西久了不用还是会易忘，特别是技术性的东西或是繁琐的操作</p>
 </blockquote>
+<p><a href="http://gulpjs.com">gulp</a> 是前端的构建工具，配置不繁琐，而且学起来也容易。
+安装<a href="http://gulpjs.com">gulp</a>之前确保你安装nodejs,如果没安装可以参考<a href="http://qyfct.com/index.php/2016/07/14/mac-node-js/">这篇文章</a></p>
+<h1 id="安装gulp">安装gulp</h1>
+<blockquote>
+<p>$  npm install gulp -g</p>
+</blockquote>
+<p>-g代表全局安装 如果是mac,加上sudo 因为mac全局安装需要权限还需要输入密码，如下</p>
+<blockquote>
+<p>$ sudo npm install gulp -g</p>
+</blockquote>
+<h2 id="安装成功之后接下来我们需要开始使用gulp了一步一步操作">安装成功之后，接下来我们需要开始使用gulp了，一步一步操作</h2>
 <ul>
-<li>
+<li>新建一个文件夹demo</li>
+</ul>
 <ol start="2">
-<li><a href="https://go-zh.org">Golang中文文档</a></li>
+<li>进入demo目录:</li>
 </ol>
-</li>
-</ul>
 <blockquote>
-<p>如果英文不好且不会翻墙的可以直接浏览这个</p>
+<p>$ cd demo</p>
 </blockquote>
-<p>附上：<a href="https://tour.go-zh.org/welcome/1">Golang中文教程指南</a> 里面包含最简单最直接的教程</p>
-<ul>
-<li>
 <ol start="3">
-<li><a href="https://gobyexample-cn.github.io">Go by Example 中文版</a></li>
+<li>初始化一下npm创建package.josn:</li>
 </ol>
-</li>
+<blockquote>
+<p>$ npm init</p>
+</blockquote>
+<p>一路回车键</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1616684-024cadbcf9bbbf28.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="目前demo的目录"></p>
+<ul>
+<li>下来gulp登场:</li>
 </ul>
 <blockquote>
-<p>Go by Example 是对 Go 基于实践的介绍，包含一系列带有注释说明的示例程序
-附上： <a href="https://gobyexample.com">英文版</a></p>
+<p>npm install gulp &ndash;save-dev</p>
 </blockquote>
+<p>你肯定有疑问，为什么还要再安装一下？前面不是安装过了吗？因每个单独的项目要使用gulp都需要再安装一次。&ndash;save-dev是把gulp写进package.josn的依赖中</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1616684-379cc4dacd7a3c16.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="安装gulp中"></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1616684-b044d6cd09b65de0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="安装gulp成功之后目录多了一个node_modules文件夹"></p>
+<ul>
+<li>gulp有集成很多功能，比如gulp-less、 gulp-cssmin、 gulp-uglify、 gulp-connect、 gulp-concat 、gulp-imagemin、 gulp-clean。常用有less转css的gulp-less、css压缩体积的gulp-cssmin、js压缩体积的gulp-uglify、也可以用图片压缩gulp-imagemin。安装全部命令：</li>
+</ul>
+<blockquote>
+<p>$  npm install gulp-less gulp-cssmin gulp-uglify gulp-connect gulp-concat gulp-imagemin gulp-clean open &ndash;save-dev</p>
+</blockquote>
+<p><img src="http://upload-images.jianshu.io/upload_images/1616684-a38090e37a04e1ac.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="压缩命令执行"></p>
 <ul>
 <li>
-<ol start="4">
-<li><a href="https://docs.hacknode.org/gopl-zh/">Go语言圣经（中文版</a></li>
-</ol>
+<p>根目录创建gulpfile.js文件，使用gulp必备配置文件。如果想如何配置可以自行网上搜索，<a href="http://www.qyfct.com/gulpfile.js">这里提供代码链接复制哈</a></p>
 </li>
-</ul>
-<blockquote>
-<p>Go语言圣经也算是比较早的教程了
-附上： <a href="http://www.gopl.io">英文版-http://www.gopl.io</a></p>
-</blockquote>
-<ul>
 <li>
-<ol start="5">
-<li><a href="https://github.com/ffhelicopter/Go42/">《Go语言四十二章经》</a></li>
-</ol>
+<p>新建文件夹<code>src</code> ，为什么必须要是src？因为gulpfile.js文件指定src,你也可以修改配置文件的文件夹名。</p>
 </li>
-</ul>
-<blockquote>
-<p>详细讲述Go语言规范与语法细节及开发中常见的误区，通过研读标准库等经典代码设计模式，启发读者深刻理解Go语言的核心思维，进入Go语言开发的更高阶段</p>
-</blockquote>
-<ul>
 <li>
-<ol start="6">
-<li><a href="https://github.com/polaris1119/The-Golang-Standard-Library-by-Example">《Go语言标准库》</a></li>
-</ol>
+<p>进入src文件夹新建demo.html 和js文件夹，在里面随便写点什么,</p>
 </li>
 </ul>
-<blockquote>
-<p>Golang标准库。对于程序员而言，标准库与语言本身同样重要，它好比一个百宝箱，能为各种常见的任务提供完美的解决方案。以示例驱动的方式讲解Golang的标准库。</p>
-</blockquote>
+<p><img src="http://upload-images.jianshu.io/upload_images/1616684-95bd9a11106b1873.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="src目录"></p>
 <ul>
-<li>
-<ol start="7">
-<li><a href="https://astaxie.gitbooks.io/build-web-application-with-golang/zh/ref.html">《Go Web 编程》</a></li>
-</ol>
-</li>
+<li>最后一步了：终端运行命令</li>
 </ul>
 <blockquote>
-<p>比较老的教程，不过还是很实用</p>
+<p>$ gulp</p>
 </blockquote>
-<ul>
-<li>
-<ol start="8">
-<li><a href="https://github.com/bonfy/go-mega">《Go-Mega》</a></li>
+<p><img src="http://upload-images.jianshu.io/upload_images/1616684-e94275b98392b0c9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="然后在index.html编辑代码看看浏览器有啥变化没？"></p>
+<h1 id="使用bower下载第三方类库">使用bower下载第三方类库</h1>
+<ol>
+<li>检测是否安装 <code>$ bower -v </code></li>
+<li>如果没有则安装<code>$ npm install bower -g</code></li>
+<li>在demo目录下 <code>$ bower install xxx</code> 比如下载angular-ui-router <code>$ bower install angular-ui-router</code></li>
+<li>搞定。</li>
 </ol>
-</li>
-</ul>
-<blockquote>
-<p>一套 Go 的 Web 教程，作者拥有多年开发Web的经验，按照他的教程一步一步搭建最简单的博客，再到自己去研究 <strong>Flask</strong> 源码以及其他的 Web 框架</p>
-</blockquote>
-<ul>
-<li>
-<ol start="9">
-<li><a href="https://github.com/Unknwon/the-way-to-go_ZH_CN">《Go 入门指南》</a></li>
-</ol>
-</li>
-</ul>
-<blockquote>
-<p>作者翻译了《The Way to Go》，同时还录制视频教程<a href="https://github.com/Unknwon/go-fundamental-programming">《Go编程基础》</a></p>
-</blockquote>
-<hr>
-<p>如果你还觉得更深入了解Golang，可以看看
-<a href="https://www.imooc.com/topic/golang">慕课网的一些收费教程</a></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1616684-e7d7d0d90faa23ec.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="完成"></p>
 
         </div>
 
@@ -219,7 +194,7 @@
 <div class="post-archive">
     <ul class="post-copyright">
         <li><strong>原文作者：</strong><a rel="author" href="https://hzx157.github.io">五锅锅</a></li>
-        <li style="word-break:break-all"><strong>原文链接：</strong><a href="https://hzx157.github.io/post/Golang/golang01/">https://hzx157.github.io/post/Golang/golang01/</a></li>
+        <li style="word-break:break-all"><strong>原文链接：</strong><a href="https://hzx157.github.io/post/Web/gulp01/">https://hzx157.github.io/post/Web/gulp01/</a></li>
         <li><strong>版权声明：</strong>本作品采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。</li>
     </ul>
 </div>
@@ -233,6 +208,8 @@
     <h2>See Also</h2>
     <ul class="listing">
         
+        <li><a href="/post/Golang/golang01/">Golang的学习网站资源</a></li>
+        
         <li><a href="/about/">关于</a></li>
         
         <li><a href="/post/iOS/ios01/">关于ld: framework not found -xxxx 解决问题</a></li>
@@ -240,8 +217,6 @@
         <li><a href="/post/Web/node01/">mac 的node.js 安装和卸载</a></li>
         
         <li><a href="/post/Web/web03/">JavaScript兼容性收集</a></li>
-        
-        <li><a href="/post/Web/web04/">解剖JS原型对象，让世界没有混淆的对象😂</a></li>
         
     </ul>
 </div>
@@ -251,7 +226,7 @@
             
             <ul class="clearfix">
                 
-                <li><a href='https://hzx157.github.io/tags/Golang'>Golang</a></li>
+                <li><a href='https://hzx157.github.io/tags/gulp'>gulp</a></li>
                 
             </ul>
             

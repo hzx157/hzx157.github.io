@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gulp on 五锅锅的博客</title>
+    <link>https://hzx157.github.io/tags/gulp/</link>
+    <description>Recent content in gulp on 五锅锅的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 14 Dec 2019 21:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://hzx157.github.io/tags/gulp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>安装gulp以及简单的使用</title>
+      <link>https://hzx157.github.io/post/Web/gulp01/</link>
+      <pubDate>Sat, 14 Dec 2019 21:00:00 +0800</pubDate>
+      
+      <guid>https://hzx157.github.io/post/Web/gulp01/</guid>
+      <description>好记性不如烂笔头，很多东西久了不用还是会易忘，特别是技术性的东西或是繁琐的操作 gulp 是前端的构建工具，配置不繁琐，而且学起来也容易。 安装gulp之前确保你安装nod</description>
+    </item>
+    
+  </channel>
+</rss>
